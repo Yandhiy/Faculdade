@@ -9,6 +9,7 @@ Var
    valorcompra : inteiro
    valorparcela : inteiro
    valorfinal : real
+   opcao:inteiro
    
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -18,13 +19,14 @@ Inicio
    escreva("2 - 3 Parcelas")
    escreva("3 - 5 Parcelas")
    escreva("4 - 10 Parcelas")
-   leia(valorparcela)
+   leia(opcao)
    
-   Escolha valorparcela
+   Escolha opcao
 
 
         caso 1
-            escreva("O valor final sera" valorparcela)
+            valorfinal := valorcompra*0.95
+            escreva("O valor final sera" valorfinal)
         caso 2
             escreva("Pagamento em 3 parcelas")
         caso 3
