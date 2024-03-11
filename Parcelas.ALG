@@ -28,10 +28,11 @@ Inicio
             valorfinal := valorcompra*0.95
             escreva("O valor final sera" valorfinal)
         caso 2
+
             escreva("Pagamento em 3 parcelas")
-        caso 3
+        caso 3 (2%)
             escreva("Pagamento em 5 parcelas")
-        caso 4
+        caso 4 (8%)
             escreva("Pagamento em 10 parcelas")
         outrocaso
             escreva("Não disponivel")
